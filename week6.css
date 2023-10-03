@@ -1,0 +1,20 @@
+html {
+    font-size: 30px
+}
+
+.box {
+    border: 4px dashed deeppink
+}
+
+.text {
+    border: 4px dashed violet;
+    padding: 20px 30px 10px 50px;
+    background-color: pink;
+    margin: 20px;
+}
+
+
+/* ems and rems
+/* view width and height
+/* percentages
+
