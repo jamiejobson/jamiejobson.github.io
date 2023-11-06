@@ -7,11 +7,14 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
+const storyText = ":insertx: decided, spontaneously, as if compelled by unknown forces, to visit :inserty:. Upon :insertx:'s arrival, they encountered a distraught child by the name of Bob, who desparately implored :insertx: to please, perform this one task and the apocalypse will be delayed another thousand years. 'What do I have to do?' :insertx: asked. ':insertz:'"
+ 
 
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const insertY = ["the soup kitchen", "Disneyland", "the White House"];
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+//"It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
+
+const insertX = ["A polar bear wearing a winter outfit ironically", "Three pigs that are friends but one feels alienated", "Muffy the goth sheep from animal crossing"];
+const insertY = ["Domino's Pizza", "an incomprehensively expansive labyrinth", "the Chesapeake Bay"];
+const insertZ = ["Hand sew a tailored suit jacket for every native bird in your county.", "Reach 1,000 followers on instagram.", "Cause a scene at the Denver gem and mineral expo and prevent the distribution of serpentene."];
 
 
 randomize.addEventListener('click', result);

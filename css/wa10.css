@@ -1,6 +1,8 @@
 body {
-    font-family: helvetica, sans-serif;
+    font-family: monospace;
     width: 350px;
+    background-color: honeydew;
+    margin-left: 40vw;
   }
 
   label {
@@ -17,10 +19,10 @@ body {
   }
 
   p {
-    background: #ffc125;
+    background: lavender;
     color: #5e2612;
     padding: 10px;
     visibility: hidden;
+    border: solid 5px
   }
 
-  
