@@ -12,7 +12,7 @@ const storyText = ":insertx: decided, spontaneously, as if compelled by unknown 
 
 //"It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
 
-const insertX = ["A polar bear wearing a winter outfit ironically", "Three pigs that are friends but one feels alienated", "Muffy the goth sheep from animal crossing"];
+const insertX = ["A polar bear wearing a winter outfit ironically", "Vicki Gunvalson", "Muffy the goth sheep from animal crossing"];
 const insertY = ["Domino's Pizza", "an incomprehensively expansive labyrinth", "the Chesapeake Bay"];
 const insertZ = ["Hand sew a tailored suit jacket for every native bird in your county.", "Reach 1,000 followers on instagram.", "Cause a scene at the Denver gem and mineral expo and prevent the distribution of serpentene."];
 
