@@ -50,8 +50,3 @@ function draw() {
 btn.addEventListener("click", draw);
 
 
-
-
-
-"rgba("+red+","+green+","+blue+",0.5, "+alpha+")"
-"rgba(10,0,0,0.5)"
