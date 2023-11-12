@@ -1,22 +1,26 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: monospace;
   text-align: center;
+  color: darkgreen;
 }
 
 body {
   width: 700px;
   margin: 0 auto;
+  background-color: honeydew;
+  margin-top: 8vw;
 }
 
 .full-img {
   position: relative;
   display: block;
-  width: 640px;
+  width: 690px;
   height: 480px;
+  border: solid 5px olivedrab;
 }
 
 .full-img img {
-  width: 700px;
+  width: 690px;
   height: 480px;
 }
 
