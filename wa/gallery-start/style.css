@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-  width: 640px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -15,11 +15,16 @@ body {
   height: 480px;
 }
 
+.full-img img {
+  width: 700px;
+  height: 480px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 640px;
+  width: 700px;
   height: 480px;
   background-color: rgba(0,0,0,0);
 }
@@ -41,3 +46,5 @@ button {
   float: left;
   cursor: pointer;
 }
+
+
