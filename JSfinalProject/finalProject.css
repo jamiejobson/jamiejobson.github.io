@@ -1,0 +1,42 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    margin: 50px;
+    background-color: pink;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 16px;
+    position: absolute;
+    font-family: fantasy;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #error-message {
+    color: red;
+    position: absolute;
+  }
+
+  .floating-box {
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    font-family: fantasy;
+    background-color: deeppink;
+  }
+
+  #img {
+   width: 900px;
+   height: 1100px;
+  }
+
