@@ -8,19 +8,19 @@
   <script defer src="../finalProject.js"></script> 
 </head>
 <body onmousemove="moveElements()">
-    <h2>Enter a 10-digit phone number, for your enjoyment.</h2>
+    <h2>Submit a 10-digit phone number, for your enjoyment.</h2>
     <form id="phoneNumberForm">
-      <label for="phoneNumber">Find out if you are in possession of a valid phone number!</label>
-      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+      <label for="phoneNumber">...Is this your phone number?</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" readonly required>
       <br>
       <span id="error-message"></span>
       <br>
       <button type="button" class="floating-box" onclick="validatePhoneNumber()">Submit</button>
       <button type="button" class="floating-box" onclick="validatePhoneNumber()">Submit</button>
       <button type="button" class="floating-box" onclick="validatePhoneNumber()">Submit</button>
+      <button type="button" id="generateButton" onclick="generateRandomNumber()">Generate New Number</button>
     </form>
 <img src="https://images.vexels.com/media/users/3/184661/isolated/preview/3359d19a41128338d0bc1c24610c88f3-bigfoot-moving-creature-folklore-black.png" alt="sasquatch silhouette">
 <script src="finalProject.js"></script>
 </body>
 </html>
-

@@ -1,5 +1,5 @@
 body {
-    font-family: monospace;
+    font-family: fantasy;
     text-align: center;
     margin: 50px;
     background-color: pink;
@@ -10,18 +10,27 @@ body {
     margin-bottom: 10px;
   }
 
-  input {
+  #phoneNumber {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 8px;
-    font-size: 16px;
+    font-size: 35px;
+    font-family: fantasy;
     position: absolute;
     font-family: fantasy;
-    width: 300px;
+    width: 400px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:deeppink;
+    background-color: black;
+    border-radius: 3px;
+  
   }
-
+  
   #error-message {
     color: red;
     position: absolute;
@@ -39,4 +48,19 @@ body {
    width: 900px;
    height: 1100px;
   }
-
+  
+  #generateButton {
+    padding: 10px 20px;
+    font-family: fantasy;
+    font-size: 16px;
+    background-color: deeppink;
+    color: black; 
+    border: solid; 
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 45px;
+  }
+  
+  #generateButton:hover {
+    background-color: pink
+  }
