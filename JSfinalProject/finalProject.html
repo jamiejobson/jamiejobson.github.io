@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Final Project JS</title>
-  <link rel="stylesheet" href="finalProject.css">
-  <script defer src="../finalProject.js"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript final project</title>
+    <link rel="stylesheet" href="finalProject.css">
+    <script defer src="../finalProject.js"></script>
 </head>
 <body onmousemove="moveElements()">
-    <h2>Submit a 10-digit phone number, for your enjoyment.</h2>
-    <form id="phoneNumberForm">
-      <label for="phoneNumber">...Is this your phone number?</label>
-      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" readonly required>
-      <br>
+  <h2>Submit a 10-digit phone number, for your enjoyment.</h2>
+  <form id="phoneNumberForm">
+    <div id="validation-message"></div>
+      <div class="input-container"> 
+          <input type="tel" id="part1" name="part1" class="input-part" placeholder="Part 1" readonly required>
+          <button type="button" class="generate-button" onclick="generateRandomNumber('part1')">Generate</button>
+      </div>
+      <div class="input-container">
+          <input type="tel" id="part2" name="part2" class="input-part" placeholder="Part 2" readonly required>
+          <button type="button" class="generate-button" onclick="generateRandomNumber('part2')">Generate</button>
+      </div>
+      <div class="input-container">
+          <input type="tel" id="part3" name="part3" class="input-part" placeholder="Part 3" readonly required>
+          <button type="button" class="generate-button" onclick="generateRandomNumber('part3')">Generate</button>
+      </div>
       <span id="error-message"></span>
-      <br>
       <button type="button" class="floating-box" onclick="validatePhoneNumber()">Submit</button>
       <button type="button" class="floating-box" onclick="validatePhoneNumber()">Submit</button>
       <button type="button" class="floating-box" onclick="validatePhoneNumber()">Submit</button>
-      <button type="button" id="generateButton" onclick="generateRandomNumber()">Generate New Number</button>
-    </form>
-<img src="https://images.vexels.com/media/users/3/184661/isolated/preview/3359d19a41128338d0bc1c24610c88f3-bigfoot-moving-creature-folklore-black.png" alt="sasquatch silhouette">
-<script src="finalProject.js"></script>
+  </form>
+  <img src="https://images.vexels.com/media/users/3/184661/isolated/preview/3359d19a41128338d0bc1c24610c88f3-bigfoot-moving-creature-folklore-black.png" alt="sasquatch silhouette">
+  <script src="finalProject.js"></script>
 </body>
 </html>
+

@@ -1,66 +1,78 @@
 body {
-    font-family: fantasy;
-    text-align: center;
-    margin: 50px;
-    background-color: pink;
-  }
+  font-family: fantasy;
+  text-align: center;
+  margin: 50px;
+  background-color: pink;
+  margin-top: 70px;
+}
 
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-  #phoneNumber {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 8px;
-    font-size: 35px;
-    font-family: fantasy;
-    position: absolute;
-    font-family: fantasy;
-    width: 400px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:deeppink;
-    background-color: black;
-    border-radius: 3px;
-  
-  }
-  
-  #error-message {
-    color: red;
-    position: absolute;
-  }
+.input-part {
+  padding: 8px;
+  font-size: 35px;
+  font-family: fantasy;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  color: deeppink;
+  background-color: black;
+  border-radius: 3px;
+  margin: 5px;
+  border: 3px solid;
+  margin-right: 10px;
+}
 
-  .floating-box {
-    position: absolute;
-    height: 50px;
-    width: 70px;
-    font-family: fantasy;
-    background-color: deeppink;
-  }
+#error-message {
+  color: red;
+  position: absolute;
+}
 
-  #img {
-   width: 900px;
-   height: 1100px;
-  }
-  
-  #generateButton {
-    padding: 10px 20px;
-    font-family: fantasy;
-    font-size: 16px;
-    background-color: deeppink;
-    color: black; 
-    border: solid; 
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 45px;
-  }
-  
-  #generateButton:hover {
-    background-color: pink
-  }
+.floating-box {
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  font-family: fantasy;
+  background-color: deeppink;
+}
+
+#img {
+  width: 900px;
+  height: 1100px;
+}
+
+.generate-button {
+  padding: 10px 20px;
+  font-family: fantasy;
+  font-size: 16px;
+  background-color: deeppink;
+  color: black;
+  border: solid;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.generate-button:hover {
+  background-color: pink;
+}
+
+#validation-message {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-size: 16px;
+  background-color: deeppink;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: none;
+}
